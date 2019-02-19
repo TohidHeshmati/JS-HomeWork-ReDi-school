@@ -1,4 +1,4 @@
-let textAreaElement = document.getElementsByName("textArea");
+let textAreaElement = document.getElementById("txt");
 textAreaElement.style.backgroundColor = "blue";
 
 let bodyElement = document.body;
