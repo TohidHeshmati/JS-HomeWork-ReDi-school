@@ -36,7 +36,8 @@ public class ActionClass {
 
         for (int i=0; i<originalList.size(); i++){
             if (chest.get(originalList.get(i)) != 1) {
-                finalList.add(originalList.get(i));
+                finalList.add(origi
+                        nalList.get(i));
             }
         }
         return finalList;
