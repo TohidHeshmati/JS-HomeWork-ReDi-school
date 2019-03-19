@@ -10,7 +10,7 @@ async function nextQuestion() {
     console.log(result);
 
     let questionElement = document.getElementById("questionSpan");
-    questionElement.textContent = result.results[0].question;
+    questionElement.innerHTML = result.results[0].question;
 
     correctAnswer = result.results[0].correct_answer;
     console.log("correct Answer: " + correctAnswer);
