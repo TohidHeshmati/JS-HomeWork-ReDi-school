@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://momentjs.com/downloads/moment-with-locales.min.js"></script>
+    <script src="https://momentjs.com/downloads/moment-timezone-with-data.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<button id="locationButton" onclick="injectLocation()"> show my Location </button>
+<button id="timezoneButton" onclick="timeZone()"> Time zone </button>
+<p> your location properties is as follows: <br>
+    lat: <span id="latSpan"></span> <br>
+    long: <span id="longSpan"></span> <br>
+    time of your browser = <span id="timeSpan"></span> <br>
+    time of your friend = <span id="friendTime"></span></p>
+    <p>
+        <select id="selectMenu"> time </select>
+    </p>
+
+
+</body>
+<script src="main.js"></script>
+</html>
