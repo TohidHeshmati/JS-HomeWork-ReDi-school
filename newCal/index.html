@@ -1,0 +1,28 @@
+
+<html>
+<head>
+    <style>
+        #weekView {
+            display: flex;
+        }
+        .day {
+            padding: 5px;
+            margin: 5px;
+            border: 1px solid black;
+        }
+    </style>
+    <script src="https://momentjs.com/downloads/moment-with-locales.min.js"></script>
+    <script src="https://momentjs.com/downloads/moment-timezone-with-data.js"></script>
+    <title>Calender for business</title>
+</head>
+<body>
+<div id="weekView" style="align-items: center"></div>
+<!--<div style="text-align: center"> <button id="previous" onclick="previousWeek()"> previous </button> <button id="next" onclick="nextWeek()"> next </button></div>!-->
+<div id="buttonDiv"></div>
+<button id="changeView" onclick="changeView()"> change view </button>
+<div id="eventDiv"></div>
+
+
+<script src="main.js"></script>
+</body>
+</html>

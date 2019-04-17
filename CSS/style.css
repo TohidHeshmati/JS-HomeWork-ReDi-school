@@ -1,0 +1,24 @@
+body {
+    color: green;
+}
+h1, h2 {
+    border-bottom: 14px dashed;
+}
+h1 {
+    border-top: 14px red groove;
+    border-left: 12px blue dashed;
+}
+p {
+    background-color: chartreuse;
+}
+p.arabic {
+    background-color: red;
+    text-align: center;
+}
+.arabic {
+    background-color: antiquewhite;
+    border: blue solid 3px;
+}
+.underline {
+    text-decoration: underline;
+}
